@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navigation -->
+    <div class="nav">
+        <div class="left">
+            <img src="logo.png" class="logo" alt="">
+            <div class="search-box">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" class="search-input" placeholder="Facebook Search">
+            </div>
+        </div>
+        <div class="middle">
+            <div class="middle-link active">
+                <i class="fas fa-home middle-icon active"></i>
+            </div>
+            <div class="middle-link">
+                <i class="fas fa-computer middle-icon"></i>
+                <span class="noti">9+</span>
+            </div>
+            <div class="middle-link">
+                <i class="fas fa-users middle-icon"></i>
+            </div>
+            <div class="middle-link last">
+                <i class="fas fa-table middle-icon"></i>
+                <span class="noti">9+</span>
+
+            </div>
+        </div>
+        <div class="right">
+            <div class="profile-box">
+                <img src="khat.jpg" alt="" class="profile-picture">
+                <span class="profile-name">Aye</span>
+            </div>
+            <div class="messaging">
+                <div class="message">
+                    <i class="fas fa-braille message-icon"></i>
+                </div>
+                <div class="message">
+                    <i class="fa-brands fa-facebook-messenger message-icon"></i>
+                </div>
+                <div class="message">
+                    <i class="fas fa-bell message-icon"></i>
+                </div>
+                <div class="message">
+                    <i class="fas fa-angle-down message-icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- body -->
+    <div class="body">
+        <div class="left-body"></div>
+        <div class="newsfeed">
+            <div class="myday">
+                <div class="story">
+                    <img src="khat.jpg" alt="" class="mypic">
+                    <div class="add-story">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="create-text">Create Story</div>
+                </div>
+                <div class="stories" style="background-image: url('bg1.png')">
+                    <div class="story-owner" style="background-image: url('bg.png')">
+                    </div>
+                    <p class="name">Khat</p>
+                </div>
+                <div class="stories" style="background-image: url('bg2.png')">
+                    <div class="story-owner" style="background-image: url('bg3.png')">
+                    </div>
+                    <p class="name">Christina</p>
+                </div>
+                <div class="stories" style="background-image: url('bg4.png')">
+                    <div class="story-owner" style="background-image: url('bg5.png')">
+                    </div>
+                    <p class="name">Louis</p>
+                </div>
+                <div class="stories" style="background-image: url('bg6.png')">
+                    <div class="story-owner" style="background-image: url('bg7.png')">
+                    </div>
+                    <p class="name">Davis</p>
+                </div>
+
+                <div class="next">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="timeline">
+                <div class="add-post">
+                    <div class="add-post-text">
+                        <img src="khat.jpg" class="profile">
+                        <div class="text-box">
+                            <input type="text" class="text-input" placeholder="What's on your mind , Aye Khat?">
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="add-post-media">
+                        <div class="media-link">
+                            <i class="fas fa-video live-icon"></i>
+                            <span class="live">Live video</span>
+                        </div>
+                        <div class="media-link video-icon"><i class=" fa-solid fa-photo-film"></i>
+                            <span class="live">Photo/video</span>
+                        </div>
+                        <div class="media-link feeling-icon"><i class=" fas fa-smile"></i>
+                            <span class="live">Feeling/activity</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="actives">
+                    <div class="room">
+                        <i class="fas fa-video room-icon"></i>
+                        <span class="room-text">Create room</span>
+                    </div>
+                    <div class="active-acc">
+                        <div class="active-person" style="background-image: url('bg.png')"></div>
+                        <div class="active-person" style="background-image: url('bg1.png')"></div>
+                        <div class="active-person" style="background-image: url('bg2.png')"></div>
+                        <div class="active-person" style="background-image: url('bg3.png')"></div>
+                        <div class="active-person" style="background-image: url('bg4.png')"></div>
+                        <div class="active-person" style="background-image: url('bg5.png')"></div>
+                    </div>
+                    <div class="next-active">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="post1">
+                    <div class="post-title">
+                        <div class="pic" style="background-image: url('khat.jpg')"></div>
+                        <div class="fact">
+                            <div class="acc">Aye Khat Khat Khaing</div>
+                            <div class="hour">7h . <i class="fas fa-users"></i></div>
+                        </div>
+                        <div class="more"><i class="fa-solid fa-ellipsis"></i></div>
+                    </div>
+                    <div class="caption">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, sit alias
+                        nesciunt, maiores voluptatem quibusdam quidem facilis nostrum aliquam doloremque consequuntur
+                        ratione quisquam tenetur vero repellat possimus id delectus! Fuga.</div>
+                    <div class="pone" style="background-image: url('khat.jpg')"></div>
+                    <div class="reaction">
+                        <i class="fas fa-"></i>
+                    </div>
+                    <div class="reactors"></div>
+                    <div class="comment"></div>
+
+
+
+
+
+
+
+
+                    <div class=""></div>
+                    <div class=""></div>
+                    <div class=""></div>
+                    <div class=""></div>
+                    <div class=""></div>
+                    <div class=""></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="right-body"></div>
+    </div>
+</body>
+
+</html>
